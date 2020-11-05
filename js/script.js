@@ -78,7 +78,6 @@ document.querySelector(".control-buttons span").onclick = function () {
       firstBlock.classList.add('has-match');
       secondBlock.classList.add('has-match');
   
-  
     } else {
   
       triesElement.innerHTML = parseInt(triesElement.innerHTML) + 1;
@@ -89,7 +88,6 @@ document.querySelector(".control-buttons span").onclick = function () {
         secondBlock.classList.remove('is-flipped');
   
       }, duration);
-  
   
     }
   
