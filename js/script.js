@@ -78,7 +78,6 @@ document.querySelector(".control-buttons span").onclick = function () {
       firstBlock.classList.add('has-match');
       secondBlock.classList.add('has-match');
   
-      document.getElementById('success').play();
   
     } else {
   
@@ -91,7 +90,6 @@ document.querySelector(".control-buttons span").onclick = function () {
   
       }, duration);
   
-      document.getElementById('fail').play();
   
     }
   
